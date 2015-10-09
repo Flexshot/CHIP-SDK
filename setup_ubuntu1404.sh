@@ -48,6 +48,8 @@ fi
 sudo ln -s $PWD/fel /usr/local/bin/fel
 popd
 
+cd /home/vagrant/
+
 echo -e "\n Installing CHIP-tools"
 git clone http://github.com/NextThingCo/CHIP-tools
 
